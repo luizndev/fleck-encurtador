@@ -1,0 +1,20 @@
+footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    bottom: 4vh;
+
+    & img{
+        filter: saturate(0%);
+        opacity: 80%;
+        width: 200px;
+    }
+    
+    & img:hover{
+        filter: saturate(100%);
+        opacity: 100%;
+    }
+}

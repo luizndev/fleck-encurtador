@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+  box-sizing: border-box !important;
+  transition: .3s ease-in-out !important; 
+  font-family: "Outfit", sans-serif !important;
+}
+
+body{
+  height: 100dvh;
+  overflow: hidden;
+}
+
+:root{
+  --cor-principal: #0505ff;
+}
