@@ -28,9 +28,12 @@ header{
                 display: flex;
                 align-items: center;
                 text-decoration: none;
+                font-size: 1rem;
                 justify-content: center;
                 gap: .3125rem;
                 & svg{
+                    font-size: 1rem !important;
+                    flex-shrink: 0 !important;
                     color: var(--cor-principal);
                 }
             }
@@ -92,7 +95,8 @@ header{
   .mobile-menu{
     width: 100%;
     justify-content: space-evenly;
-
+    padding: 0 !important;
+    margin: 0 !important;
     & li{
         width: 30%;
     }
