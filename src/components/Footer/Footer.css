@@ -18,3 +18,9 @@ footer{
         opacity: 100%;
     }
 }
+
+@media (max-width: 750px) {
+    footer{
+        display: none;
+    }
+}

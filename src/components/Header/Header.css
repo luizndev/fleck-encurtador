@@ -6,6 +6,7 @@ header{
     transform: translate(-50%,0%);
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     background-color: white;
     justify-content: space-between;
@@ -56,4 +57,44 @@ header{
     filter: saturate(100%);
 }
 
+.menu-burger-li{
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
 
+.menu-burger{
+    color: var(--cor-principal);
+}
+
+
+
+@media (max-width: 750px) {
+  header{
+    width: 100%;
+    padding: 1vh 1.25rem;
+    left: 0%;
+    top: 0vh;
+    transform: translate(0%,0%);
+    border-radius: 0px;
+  }
+
+  .menu-burger-li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+  .li-option{
+    display: none;
+  }
+
+  .mobile-menu{
+    width: 100%;
+    justify-content: space-evenly;
+
+    & li{
+        width: 30%;
+    }
+  }
+}
